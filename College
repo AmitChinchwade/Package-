@@ -1,0 +1,17 @@
+package com.example.college;
+
+public class College {
+    String collegeName;
+    String city;
+    double rating;
+    
+    public static void main(String[] args) {
+        College col = new College();
+        col.collegeName = "Cambridge College";
+        col.city = "Pune";
+        col.rating = 4.2;
+        System.out.println("College: " + col.collegeName);
+        System.out.println("City: " + col.city);
+        System.out.println("Rating: " + col.rating + "/5");
+    }
+}
