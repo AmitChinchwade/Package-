@@ -1,0 +1,17 @@
+package com.example.customer;
+
+public class Customer {
+    int customerId;
+    String customerName;
+    String phoneNumber;
+    
+    public static void main(String[] args) {
+        Customer cust = new Customer();
+        cust.customerId = 5001;
+        cust.customerName = "Amit Desai";
+        cust.phoneNumber = "9876543210";
+        System.out.println("Customer ID: " + cust.customerId);
+        System.out.println("Name: " + cust.customerName);
+        System.out.println("Phone: " + cust.phoneNumber);
+    }
+}
