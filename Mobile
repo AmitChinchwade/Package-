@@ -1,0 +1,17 @@
+package com.example.mobile;
+
+public class Mobile {
+    String company;
+    String color;
+    double cost;
+    
+    public static void main(String[] args) {
+        Mobile m = new Mobile();
+        m.company = "Samsung";
+        m.color = "Black";
+        m.cost = 35000.0;
+        System.out.println("Company: " + m.company);
+        System.out.println("Color: " + m.color);
+        System.out.println("Cost: ₹" + m.cost);
+    }
+}
