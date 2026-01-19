@@ -1,0 +1,12 @@
+package com.animal;
+public class AnimalMain {
+
+        public static void main(String[] args) {
+
+                Animal dog = new Animal();
+                System.out.println(("Animal Id: ")+(dog.id = 121));
+                System.out.println(("Animal Name: ")+(dog.name = "Tommy"));
+                System.out.println(("Animal Color: ")+(dog.color = "Black"));
+
+        }
+}
