@@ -1,0 +1,17 @@
+package com.example.laptop;
+
+public class Laptop {
+    String ram;
+    String processor;
+    double price;
+    
+    public static void main(String[] args) {
+        Laptop l = new Laptop();
+        l.ram = "16GB";
+        l.processor = "Intel i7";
+        l.price = 85000.0;
+        System.out.println("RAM: " + l.ram);
+        System.out.println("Processor: " + l.processor);
+        System.out.println("Price: ₹" + l.price);
+    }
+}
