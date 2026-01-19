@@ -1,0 +1,22 @@
+package com.example.book;
+
+public class Book {
+    int bookId;
+    String title;
+    String author;
+    
+    public static void main(String[] args) {
+        Book b1 = new Book();
+        b1.bookId = 101;
+        b1.title = "Java Programming";
+        b1.author = "James Gosling";
+        
+        Book b2 = new Book();
+        b2.bookId = 102;
+        b2.title = "Spring Boot Guide";
+        b2.author = "Rod Johnson";
+        
+        System.out.println("Book 1 - ID: " + b1.bookId + ", Title: " + b1.title + ", Author: " + b1.author);
+        System.out.println("Book 2 - ID: " + b2.bookId + ", Title: " + b2.title + ", Author: " + b2.author);
+    }
+}
